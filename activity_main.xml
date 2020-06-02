@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="178dp"
+        android:layout_height="43dp"
+        android:autoText="false"
+        android:background="@drawable/edit_text_background"
+        android:freezesText="false"
+        android:text="Login Portal"
+        android:textColor="#F44336"
+        android:textColorLink="#E91E63"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="53dp"
+        android:background="@drawable/edit_text_background"
+        android:text="Home Automated System"
+        android:textColor="#E91E3C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="297dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="196dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName"
+        android:textColor="#E91E63"
+        android:textColorHint="#CDDC39"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/bt4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColor="#F44336"
+        android:textColorHint="#FF9800"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt2"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="176dp"
+        android:layout_height="51dp"
+        android:background="@drawable/button_edit_background"
+        android:text="LOGIN"
+        android:textColor="#FF5722"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt3"
+        app:layout_constraintVertical_bias="0.776" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="234dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/button_edit_background"
+        android:text="Create New User"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="301dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/edit_text_background"
+        android:text="Netaji Subhash Engineering College"
+        android:textColor="#F0E91EC4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt2"
+        app:layout_constraintVertical_bias="0.591" />
+</androidx.constraintlayout.widget.ConstraintLayout>
